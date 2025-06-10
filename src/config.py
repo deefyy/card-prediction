@@ -1,0 +1,22 @@
+MODEL_PATH = 'yolov8m_synthetic.pt'
+
+IMG_SIZE = 832
+CONFIDENCE_THRESHOLD = 0.5
+IOU_THRESHOLD = 0.5
+DEVICE = 'cpu'
+AUGMENT = True
+
+SAVE_PREDICT = False
+SHOW_PREDICT = False
+
+# Pokera
+POKER_NUM_OPPONENTS = 2
+POKER_SIMULATIONS_COUNT = 10000
+
+# Blackjacka
+DEALER_HITS_ON_SOFT_17 = True
+
+
+OLLAMA_MODEL = 'gemma3:4b'
+
+OUTPUT_IMAGE_NAME = 'analysis_result.jpg'
